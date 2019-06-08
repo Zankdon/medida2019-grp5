@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class DontDestroy : MonoBehaviour
 {
     private void Start()
     {
-        var muteBtn = GetComponent<UnityEngine.UI.Toggle>();
+        var muteBtn = FindObjectOfType<Toggle>();
+        Debug.Log("Er denkt vol ist:" + AudioListener.volume);
         if (AudioListener.volume == 1)
         {
             muteBtn.isOn = false;
@@ -17,6 +19,7 @@ public class DontDestroy : MonoBehaviour
             muteBtn.isOn = true;
             musik();
         }
+        Debug.Log("true?" + muteBtn.isOn);
     }
 
     private void Awake()
@@ -31,7 +34,10 @@ public class DontDestroy : MonoBehaviour
     public void musik()
     {
         if (AudioListener.volume == 1)
+        {
             AudioListener.volume = 0;
+            Debug.Log("Vol jetzt:" + AudioListener.volume);
+        }
         else
             AudioListener.volume = 1;
     }

@@ -244,10 +244,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 891, y: 501}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -637,7 +637,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1166526565}
   - component: {fileID: 1166526567}
-  - component: {fileID: 1166526566}
   m_Layer: 5
   m_Name: Toggle
   m_TagString: MuteButton
@@ -665,18 +664,6 @@ RectTransform:
   m_AnchoredPosition: {x: 405, y: 220}
   m_SizeDelta: {x: 60, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1166526566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1166526564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7072009d0605eaa4cac081115925dbd9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1166526567
 MonoBehaviour:
   m_ObjectHideFlags: 0
