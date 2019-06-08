@@ -23,7 +23,8 @@ public class ButtonManager : MonoBehaviour
 
     public void GoToLevelx(int x)
     {
+        Slot.herzen = 3;
+        Slot.richtig = 5;
         SceneManager.LoadScene("Level" + x);
-        Debug.Log(x);
     }
 }

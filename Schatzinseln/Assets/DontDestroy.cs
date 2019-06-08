@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DontDestroy : MonoBehaviour
 {
@@ -23,10 +24,10 @@ public class DontDestroy : MonoBehaviour
         GameObject[] objects = GameObject.FindGameObjectsWithTag("Musik");
         if (objects.Length > 1)
             Destroy(this.gameObject);
-
         if(this.gameObject.CompareTag("Musik"))
             DontDestroyOnLoad(this.gameObject);
     }
+
     public void musik()
     {
         if (AudioListener.volume == 1)
