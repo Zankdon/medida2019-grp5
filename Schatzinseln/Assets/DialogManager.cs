@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogManager : MonoBehaviour
 {
@@ -13,10 +14,11 @@ public class DialogManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        saetze = new Queue<string>();
+        //saetze = new Queue<string>();
     }
     public void StartDialog(Dialog dialog)
     {
+        saetze = new Queue<string>();
         nameText.text = dialog.name;
 
         saetze.Clear();
@@ -42,6 +44,8 @@ public class DialogManager : MonoBehaviour
 
     void EndDialog()
     {
+        ButtonManager.geleseneStories = ButtonManager.geleseneStories + 1;
+        SceneManager.LoadScene(ButtonManager.lastScene);
         Debug.Log("Ende des Gesprächs");
     }
 }

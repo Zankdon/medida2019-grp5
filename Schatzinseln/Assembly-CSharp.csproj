@@ -61,6 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ButtonManager.cs" />
+    <Compile Include="Assets\Dialog.cs" />
+    <Compile Include="Assets\DialogManager.cs" />
+    <Compile Include="Assets\DialogTrigger.cs" />
     <Compile Include="Assets\DontDestroy.cs" />
     <Compile Include="Assets\DragHandler.cs" />
     <Compile Include="Assets\Slot.cs" />
