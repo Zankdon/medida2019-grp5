@@ -33,6 +33,7 @@ public class Slot : MonoBehaviour, IDropHandler
             {
                 DragHandler.draggedItem.transform.SetParent(transform);
                 Debug.Log("Richtig!");
+                AudioManager.instance.playRight();
                 richtig = richtig - 1;
                 if (richtig < 1)
                 {
@@ -44,7 +45,7 @@ public class Slot : MonoBehaviour, IDropHandler
             else
             {
                 Debug.Log("Falsch!");
-                Debug.Log(herzen);
+                AudioManager.instance.playWrong();
                 if (herzen > 1)
                 {
                     Debug.Log(GameObject.Find("herz" + herzen));

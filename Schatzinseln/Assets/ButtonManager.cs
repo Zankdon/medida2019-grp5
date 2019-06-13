@@ -47,4 +47,5 @@ public class ButtonManager : MonoBehaviour
         Slot.richtig = 5;
         SceneManager.LoadScene("Level" + x);
     }
+
 }

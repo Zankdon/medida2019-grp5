@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AudioManager.cs" />
     <Compile Include="Assets\ButtonManager.cs" />
     <Compile Include="Assets\Dialog.cs" />
     <Compile Include="Assets\DialogManager.cs" />
