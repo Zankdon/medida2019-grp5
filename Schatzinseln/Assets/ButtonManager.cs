@@ -7,6 +7,7 @@ public class ButtonManager : MonoBehaviour
 {
     public static string lastScene;
     public static int geleseneStories = 0;
+    public static int richtig = 5;
 
     public void NewGameBtn()
     {
@@ -56,9 +57,23 @@ public class ButtonManager : MonoBehaviour
 
     public void GoToLevelx(int x)
     {
-        Slot.herzen = 3;
-        Slot.richtig = 5;
-        SceneManager.LoadScene("Level" + x);
+        Herzen.herzen = 3;
+        richtig = 5;
+        if (x == 2)
+        {
+            GoToLevel2(1);
+        }
+        else
+        {
+            SceneManager.LoadScene("Level" + x);
+        }
+    }
+
+    public void GoToLevel2(int x)
+    {
+        int zufall = Random.Range(1, 3);
+        Debug.Log(zufall);
+        SceneManager.LoadScene("Level2." + x + "." + zufall);
     }
 
 }

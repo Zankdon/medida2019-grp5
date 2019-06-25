@@ -7,8 +7,6 @@ using UnityEngine.UI;
 
 public class Slot : MonoBehaviour, IDropHandler
 {
-    public static int herzen = 3;
-    public static int richtig = 5;
 
     public GameObject item
     {
@@ -34,10 +32,10 @@ public class Slot : MonoBehaviour, IDropHandler
                 DragHandler.draggedItem.transform.SetParent(transform);
                 Debug.Log("Richtig!");
                 AudioManager.instance.playRight();
-                richtig = richtig - 1;
-                if (richtig < 1)
+                ButtonManager.richtig = ButtonManager.richtig - 1;
+                if (ButtonManager.richtig < 1)
                 {
-                    SceneManager.LoadScene("ENDE");
+                    SceneManager.LoadScene("Insel1");
                 }
                 GameObject.Find("Canvas").transform.Find("Richtig").gameObject.SetActive(true);
                 GameObject.Find("Canvas").transform.Find("Falsch").gameObject.SetActive(false);
@@ -46,11 +44,11 @@ public class Slot : MonoBehaviour, IDropHandler
             {
                 Debug.Log("Falsch!");
                 AudioManager.instance.playWrong();
-                if (herzen > 1)
+                if (Herzen.herzen > 1)
                 {
-                    Debug.Log(GameObject.Find("herz" + herzen));
-                    GameObject.Find("herz" + herzen).SetActive(false);
-                    herzen = herzen - 1;
+                    Debug.Log(GameObject.Find("herz" + Herzen.herzen));
+                    GameObject.Find("herz" + Herzen.herzen).SetActive(false);
+                    Herzen.herzen = Herzen.herzen - 1;
                     GameObject.Find("Canvas").transform.Find("Richtig").gameObject.SetActive(false);
                     GameObject.Find("Canvas").transform.Find("Falsch").gameObject.SetActive(true);
                 }
