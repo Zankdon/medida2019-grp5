@@ -76,4 +76,9 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene("Level2." + x + "." + zufall);
     }
 
+    public void GoToLevel3(int x)
+    {
+        SceneManager.LoadScene("Level3." + x);
+    }
+
 }
