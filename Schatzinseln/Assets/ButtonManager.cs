@@ -95,8 +95,8 @@ public class ButtonManager : MonoBehaviour
     }
     public void GoToLevel4(int x)
     {
-        int zufall = Random.Range(1, 6);
+        int zufall = Random.Range(1, 3);
         Debug.Log(zufall);
-        SceneManager.LoadScene("Level4." + zufall);
+        SceneManager.LoadScene("Level4." + x + "." + zufall);
     }
 }
