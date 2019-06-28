@@ -55,6 +55,19 @@ public class ButtonManager : MonoBehaviour
         }
     }
 
+    public void GoToInsel3()
+    {
+        if (geleseneStories == 3)
+        {
+            lastScene = ("Insel3");
+            SceneManager.LoadScene("Story3");
+        }
+        else
+        {
+            SceneManager.LoadScene("Insel3");
+        }
+    }
+
     public void GoToLevelx(int x)
     {
         Herzen.herzen = 3;
