@@ -76,6 +76,10 @@ public class ButtonManager : MonoBehaviour
         {
             GoToLevel2(1);
         }
+        if (x == 4)
+        {
+            GoToLevel4(1);
+        }
         else
         {
             SceneManager.LoadScene("Level" + x);
@@ -95,6 +99,8 @@ public class ButtonManager : MonoBehaviour
     }
     public void GoToLevel4(int x)
     {
+        Herzen.herzen = 3;
+        richtig = 3;
         int zufall = Random.Range(1, 3);
         Debug.Log(zufall);
         SceneManager.LoadScene("Level4." + x + "." + zufall);
