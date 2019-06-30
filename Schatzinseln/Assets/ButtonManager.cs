@@ -8,6 +8,7 @@ public class ButtonManager : MonoBehaviour
     public static string lastScene;
     public static int geleseneStories = 0;
     public static int richtig = 5;
+    public static int richtigWaage = 0;
 
     public void NewGameBtn()
     {
@@ -99,8 +100,9 @@ public class ButtonManager : MonoBehaviour
     }
     public void GoToLevel4(int x)
     {
+       
         Herzen.herzen = 3;
-        richtig = 3;
+        richtigWaage = 0;
         int zufall = Random.Range(1, 3);
         Debug.Log(zufall);
         SceneManager.LoadScene("Level4." + x + "." + zufall);

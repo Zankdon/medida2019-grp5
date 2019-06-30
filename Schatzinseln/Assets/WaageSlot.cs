@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Slot : MonoBehaviour, IDropHandler
+public class WaageSlot : MonoBehaviour, IDropHandler
 {
 
     public GameObject item
@@ -32,12 +32,23 @@ public class Slot : MonoBehaviour, IDropHandler
                 DragHandler.draggedItem.transform.SetParent(transform);
                 Debug.Log("Richtig!");
                 AudioManager.instance.playRight();
-                ButtonManager.richtig = ButtonManager.richtig - 1;
-                if (ButtonManager.richtig < 1)
+                ButtonManager.richtigWaage = ButtonManager.richtigWaage + 1;
+                if (ButtonManager.richtigWaage == 3)
                 {
-                    SceneManager.LoadScene("Insel1");
+                    int zufall = Random.Range(1, 3);
+                    Debug.Log(zufall);
+                    SceneManager.LoadScene("Level4." + 2 + "." + zufall);
                 }
-
+                if (ButtonManager.richtigWaage == 6)
+                {
+                    int zufall = Random.Range(1, 3);
+                    Debug.Log(zufall);
+                    SceneManager.LoadScene("Level4." + 3 + "." + zufall);
+                }
+                if (ButtonManager.richtigWaage == 9)
+                {
+                    SceneManager.LoadScene("Story3");
+                }
                 GameObject.Find("Canvas").transform.Find("Richtig").gameObject.SetActive(true);
                 GameObject.Find("Canvas").transform.Find("Falsch").gameObject.SetActive(false);
             }
@@ -63,3 +74,4 @@ public class Slot : MonoBehaviour, IDropHandler
     }
     #endregion
 }
+
