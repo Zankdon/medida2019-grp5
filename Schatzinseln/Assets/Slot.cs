@@ -35,7 +35,7 @@ public class Slot : MonoBehaviour, IDropHandler
                 ButtonManager.richtig = ButtonManager.richtig - 1;
                 if (ButtonManager.richtig < 1)
                 {
-                    if(ButtonManager.nextTeillevel == 2)
+                    if(ButtonManager.nextTeillevel == 3)
                     {
                         ButtonManager.nextTeillevel = 1;
                         ButtonManager.lastScene = "Insel1";

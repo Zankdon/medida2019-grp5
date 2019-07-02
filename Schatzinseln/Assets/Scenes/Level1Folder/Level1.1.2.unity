@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 260462430}
   - component: {fileID: 260462429}
   m_Layer: 5
-  m_Name: 325
+  m_Name: 318
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -794,7 +794,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &273962587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1116,7 +1116,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 54
+  m_Text: 57
 --- !u!222 &360102658
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1551,7 +1551,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 121
+  m_Text: 124
 --- !u!222 &446392555
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1574,7 +1574,7 @@ GameObject:
   - component: {fileID: 450297499}
   - component: {fileID: 450297498}
   m_Layer: 5
-  m_Name: 121
+  m_Name: 124
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2041,7 +2041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2084,7 +2084,7 @@ GameObject:
   - component: {fileID: 604386775}
   - component: {fileID: 604386774}
   m_Layer: 5
-  m_Name: 325
+  m_Name: 318
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2276,7 +2276,7 @@ GameObject:
   - component: {fileID: 649995238}
   - component: {fileID: 649995237}
   m_Layer: 5
-  m_Name: 92
+  m_Name: 95
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2728,7 +2728,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 325
+  m_Text: 318
 --- !u!222 &735767808
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2883,7 +2883,7 @@ GameObject:
   - component: {fileID: 811272564}
   - component: {fileID: 811272563}
   m_Layer: 5
-  m_Name: 121
+  m_Name: 124
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3551,7 +3551,7 @@ GameObject:
   - component: {fileID: 1089321598}
   - component: {fileID: 1089321597}
   m_Layer: 5
-  m_Name: 92
+  m_Name: 95
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3705,7 +3705,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9efa075174fa06846bf1d26bf2e69a45, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2b617833a1c8aa644aaf00f6887eb5c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4427,7 +4427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -4526,7 +4526,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 92
+  m_Text: 95
 --- !u!222 &1468103217
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4894,7 +4894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5094,7 +5094,7 @@ GameObject:
   - component: {fileID: 1626403438}
   - component: {fileID: 1626403437}
   m_Layer: 5
-  m_Name: 54
+  m_Name: 57
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5196,7 +5196,7 @@ GameObject:
   - component: {fileID: 1679374568}
   - component: {fileID: 1679374567}
   m_Layer: 5
-  m_Name: 54
+  m_Name: 57
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5426,7 +5426,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1710680489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5609,7 +5609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5802,7 +5802,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
