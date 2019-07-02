@@ -35,7 +35,18 @@ public class Slot : MonoBehaviour, IDropHandler
                 ButtonManager.richtig = ButtonManager.richtig - 1;
                 if (ButtonManager.richtig < 1)
                 {
-                    SceneManager.LoadScene("Insel1");
+                    if(ButtonManager.nextTeillevel == 2)
+                    {
+                        ButtonManager.nextTeillevel = 1;
+                        ButtonManager.lastScene = "Insel1";
+                        SceneManager.LoadScene("Story2");
+                    }
+                    else
+                    {
+                        ButtonManager.nextTeillevel = ButtonManager.nextTeillevel + 1;
+                        ButtonManager.GoToLevel1(ButtonManager.nextTeillevel);
+                    }
+                    //SceneManager.LoadScene("Insel1");
                 }
 
                 GameObject.Find("Canvas").transform.Find("Richtig").gameObject.SetActive(true);
