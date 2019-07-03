@@ -915,17 +915,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-    name: Jack
+    name: 
     saetze:
-    - "Auf dieser Insel trifft unser Forscher einen mysteri\xF6sen Mann geh\xFCllt
-      in einem Umhang, welcher ihm sagt, "
-    - 'dass er einen Hinweis auf den Schatz dieser Insel besitzt, doch er gibt ihn
-      nicht so einfach raus, '
-    - "stattdessen sagt er unserem Held, dass er ihm helfen muss, da er sein komplettes
-      Zeitgef\xFChl verloren hat. "
-    - 'Und so holt der Mann eine Taschenuhr heraus, auf der er immer andere Zeiten
-      einstellt und unser Held ihm helfen muss, '
-    - 'welche Uhrzeit er denn eingestellt habe. '
+    - "NPC: Einen sch\xF6nen guten Tag sie m\xFCssen neu auf dieser Insel sein. \nEventuell
+      k\xF6nnen sie mir ja helfen? "
+    - "Jack: Hallo, ja wir sind eben auf dieser Insel angekommen. \nNat\xFCrlich
+      helfen wir Ihnen gerne."
+    - "NPC: Super ich muss n\xE4mlich bald fort mit dem Bus. \nAber der Busfahrplan
+      dieser Insel ist so verwirrend. "
+    - "Jack: Na dann zeigen Sie mal her, wir schauen was wir tun k\xF6nnen. \nDer
+      ist ja wirklich ganz sch\xF6n verwirrend. "
+    - "Jack: Schau mal kannst du was damit anfangen? \nWir m\xFCssen dem Mann doch
+      irgendwie helfen k\xF6nnen."
+    - "NPC: Ich hab Ihnen hier aufgeschrieben, was ich bereits herausgefunden habe.
+      \nIch danke Ihnen f\xFCr Ihre Hilfe. "
 --- !u!114 &1358398796
 MonoBehaviour:
   m_ObjectHideFlags: 0

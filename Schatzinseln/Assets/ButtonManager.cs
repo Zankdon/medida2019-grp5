@@ -32,6 +32,16 @@ public class ButtonManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void GoToInselkarte1()
+    {
+        SceneManager.LoadScene("Inselkarte1");
+    }
+
+    public void GoToInselkarte2()
+    {
+        SceneManager.LoadScene("Inselkarte2");
+    }
+
     public void GoToInsel1()
     {
         nextTeillevel = 1;

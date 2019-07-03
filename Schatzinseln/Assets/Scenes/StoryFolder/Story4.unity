@@ -917,9 +917,9 @@ MonoBehaviour:
   dialog:
     name: Jack
     saetze:
-    - "Pass auf dich auf hier ist es sehr hei\u07EE \nDiese Insel wurde um einen
+    - "Pass auf dich auf hier ist es sehr hei\xDF\u07EE \nDiese Insel wurde um einen
       aktiven Vulkan gebaut. "
-    - "Siehst du dort in der Ferne den Tempel. \nDa muss unser n\u78E8ster Hinweis
+    - "Siehst du dort in der Ferne den Tempel. \nDa muss unser n\xE4chster Hinweis
       auf den Schatz sein. "
     - "Wir sollten keine Zeit verlieren. \nDer Vulkan kann jederzeit wieder ausbrechen. "
     - "F\xFCr Schwimmen ist es wohl zu hei\xDF. \nAlso lass uns schnell \xFCber die
