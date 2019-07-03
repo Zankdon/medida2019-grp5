@@ -89,6 +89,19 @@ public class ButtonManager : MonoBehaviour
         }
     }
 
+    public void GoToInsel4()
+    {
+        if (geleseneStories == 7)
+        {
+            lastScene = ("Insel4");
+            SceneManager.LoadScene("Story7");
+        }
+        else
+        {
+            SceneManager.LoadScene("Insel4");
+        }
+    }
+
     public void GoToLevelx(int x)
     {
         if(nextTeillevel == 1)

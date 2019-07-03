@@ -104,4 +104,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level4Folder/Level4.3.2.unity
     guid: c4ed50ed9bd0b754cbf8839261a02b53
+  - enabled: 1
+    path: Assets/Scenes/Inselkarte3.unity
+    guid: e127f5fab06970b40a22224230f81891
+  - enabled: 1
+    path: Assets/Scenes/Insel3.unity
+    guid: 615fe4c01af9517478865b81b5950060
   m_configObjects: {}
