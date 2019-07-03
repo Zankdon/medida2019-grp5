@@ -915,10 +915,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialog:
-    name: Jack
+    name: 
     saetze:
-    - "Schaut so aus als ob wir alle Kartenteile zusammen haben. \nIch bin mir sicher
-      auf der neuen Insel muss der Schatz sein. "
+    - "NPC: Oh super nun wei\xDF ich endlich wann mein Bus kommt. \nVielen Dank,
+      kann ich Ihnen auch irgendwie helfen? "
+    - "Jack: Ist doch kein Problem. \nJa haben Sie vielleicht von dem verborgenen
+      Schatz dieser Insel geh\xF6rt? "
+    - "NPC: Aber nat\xFCrlich dies ist ein altes Geheimnis unserer Insel. \nZeigen
+      Sie mal ihre Karte her."
+    - "NPC: Ich hab Ihnen den Ort des Schatzes auf der Karte markiert. \nSie m\xFCssen
+      viel herumgekommen sein. \nIch w\xFCnsche Ihnen viel Gl\xFCck."
+    - "Jack: Vielen Dank f\xFCr Ihre Hilfe. "
 --- !u!114 &1358398796
 MonoBehaviour:
   m_ObjectHideFlags: 0

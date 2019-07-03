@@ -47,7 +47,7 @@ public class WaageSlot : MonoBehaviour, IDropHandler
                 }
                 if (ButtonManager.richtigWaage == 9)
                 {
-                    SceneManager.LoadScene("Story5");
+                    SceneManager.LoadScene("Story6");
                 }
                 GameObject.Find("Canvas").transform.Find("Richtig").gameObject.SetActive(true);
                 GameObject.Find("Canvas").transform.Find("Falsch").gameObject.SetActive(false);

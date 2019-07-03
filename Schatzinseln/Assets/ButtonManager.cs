@@ -32,6 +32,56 @@ public class ButtonManager : MonoBehaviour
         Application.Quit();
     }
 
+    public void GoToInselkartex(int x)
+    {
+        if (x == 1)
+
+        {
+            SceneManager.LoadScene("Inselkarte1");
+        }
+        else if (x == 2)
+
+        {
+            SceneManager.LoadScene("Inselkarte2");
+        }
+        else if (x == 3)
+
+        {
+            SceneManager.LoadScene("Inselkarte3");
+        }
+
+        else if (x == 4)
+
+        {
+            SceneManager.LoadScene("Inselkarte4");
+        }
+    }
+
+    public void GoToLexikonx(int x)
+    {
+        if (x == 1)
+
+        {
+            SceneManager.LoadScene("Insel1Lexikon");
+        }
+        else if (x == 2)
+
+        {
+            SceneManager.LoadScene("Insel2Lexikon");
+        }
+        else if (x == 3)
+
+        {
+            SceneManager.LoadScene("Insel3Lexikon");
+        }
+
+        else if (x == 4)
+
+        {
+            SceneManager.LoadScene("Insel4Lexikon");
+        }
+    }
+
     public void GoToInsel1()
     {
         nextTeillevel = 1;
@@ -76,6 +126,19 @@ public class ButtonManager : MonoBehaviour
         else
         {
             SceneManager.LoadScene("Insel3");
+        }
+    }
+
+    public void GoToInsel4()
+    {
+        if (geleseneStories == 7)
+        {
+            lastScene = ("Insel4");
+            SceneManager.LoadScene("Story7");
+        }
+        else
+        {
+            SceneManager.LoadScene("Insel4");
         }
     }
 
