@@ -32,14 +32,54 @@ public class ButtonManager : MonoBehaviour
         Application.Quit();
     }
 
-    public void GoToInselkarte1()
+    public void GoToInselkartex(int x)
     {
-        SceneManager.LoadScene("Inselkarte1");
+        if (x == 1)
+
+        {
+            SceneManager.LoadScene("Inselkarte1");
+        }
+        else if (x == 2)
+
+        {
+            SceneManager.LoadScene("Inselkarte2");
+        }
+        else if (x == 3)
+
+        {
+            SceneManager.LoadScene("Inselkarte3");
+        }
+
+        else if (x == 4)
+
+        {
+            SceneManager.LoadScene("Inselkarte4");
+        }
     }
 
-    public void GoToInselkarte2()
+    public void GoToLexikonx(int x)
     {
-        SceneManager.LoadScene("Inselkarte2");
+        if (x == 1)
+
+        {
+            SceneManager.LoadScene("Insel1Lexikon");
+        }
+        else if (x == 2)
+
+        {
+            SceneManager.LoadScene("Insel2Lexikon");
+        }
+        else if (x == 3)
+
+        {
+            SceneManager.LoadScene("Insel3Lexikon");
+        }
+
+        else if (x == 4)
+
+        {
+            SceneManager.LoadScene("Insel4Lexikon");
+        }
     }
 
     public void GoToInsel1()

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LexikonNav : MonoBehaviour
 {
@@ -37,6 +38,11 @@ public class LexikonNav : MonoBehaviour
         }
     }
 
+    public void GoToAddition()
+    {
+        SceneManager.LoadScene("AdditionsLexikon");
+    }
+
     public void nextPageAdd()
     {
         GameObject.Find("Div" + seite).SetActive(false);
@@ -65,6 +71,11 @@ public class LexikonNav : MonoBehaviour
         {
             GameObject.Find("Canvas").transform.Find("WeiterBtn").gameObject.SetActive(true);
         }
+    }
+
+    public void GoToSubtraktion()
+    {
+        SceneManager.LoadScene("SubtraktionsLexikon");
     }
 
     public void nextPageSub()
@@ -97,6 +108,11 @@ public class LexikonNav : MonoBehaviour
         }
     }
 
+    public void GoToMultiplikation()
+    {
+        SceneManager.LoadScene("MultiplikationsLexikon");
+    }
+
     public void nextPageMul()
     {
         GameObject.Find("Mul" + seite).SetActive(false);
@@ -122,6 +138,81 @@ public class LexikonNav : MonoBehaviour
             GameObject.Find("ZurueckBtn").SetActive(false);
         }
         if (seite == 6)
+        {
+            GameObject.Find("Canvas").transform.Find("WeiterBtn").gameObject.SetActive(true);
+        }
+    }
+
+    public void GoToDivision()
+    {
+        SceneManager.LoadScene("DivisionsLexikon");
+    }
+
+    public void GoToLength()
+    {
+        SceneManager.LoadScene("Längenlexikon");
+    }
+
+    public void nextPageLength()
+    {
+        GameObject.Find("length" + seite).SetActive(false);
+        seite = seite + 1;
+        GameObject.Find("Canvas").transform.Find("length" + seite).gameObject.SetActive(true);
+        if (seite == 2)
+        {
+            GameObject.Find("Canvas").transform.Find("ZurueckBtn").gameObject.SetActive(true);
+        }
+        if (seite == 4)
+        {
+            GameObject.Find("WeiterBtn").SetActive(false);
+        }
+    }
+
+    public void prevPageLength()
+    {
+        GameObject.Find("length" + seite).SetActive(false);
+        seite = seite - 1;
+        GameObject.Find("Canvas").transform.Find("length" + seite).gameObject.SetActive(true);
+        if (seite == 1)
+        {
+            GameObject.Find("ZurueckBtn").SetActive(false);
+        }
+        if (seite == 3)
+        {
+            GameObject.Find("Canvas").transform.Find("WeiterBtn").gameObject.SetActive(true);
+        }
+    }
+
+    public void GoToGewicht()
+    {
+        SceneManager.LoadScene("Gewichtlexikon");
+    }
+
+    public void nextPageGewicht()
+    {
+        GameObject.Find("gewicht" + seite).SetActive(false);
+        seite = seite + 1;
+        GameObject.Find("Canvas").transform.Find("gewicht" + seite).gameObject.SetActive(true);
+        if (seite == 2)
+        {
+            GameObject.Find("Canvas").transform.Find("ZurueckBtn").gameObject.SetActive(true);
+        }
+        if (seite == 2)
+        {
+            GameObject.Find("WeiterBtn").SetActive(false);
+        }
+    }
+
+    public void prevPageGewicht()
+    {
+        GameObject.Find("gewicht" + seite).SetActive(false);
+        seite = seite - 1;
+        GameObject.Find("Canvas").transform.Find("gewicht" + seite).gameObject.SetActive(true);
+        if (seite == 1)
+        {
+            GameObject.Find("ZurueckBtn").SetActive(false);
+        }
+        if (seite == 1)
         {
             GameObject.Find("Canvas").transform.Find("WeiterBtn").gameObject.SetActive(true);
         }
