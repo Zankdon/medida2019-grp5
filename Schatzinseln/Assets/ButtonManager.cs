@@ -100,6 +100,7 @@ public class ButtonManager : MonoBehaviour
 
     public void goToStory3()
     {
+        geleseneStories = geleseneStories - 1;
         lastScene = "Inselkarte2";
         SceneManager.LoadScene("Story3");
     }
@@ -161,12 +162,32 @@ public class ButtonManager : MonoBehaviour
 
         if (x == 1)
         {
-            GoToLevel1(1);
+
+            if(geleseneStories == 2)
+            {
+                int zufall = Random.Range(1, 3);
+                lastScene = "Level1.1." + zufall;
+                SceneManager.LoadScene("Story1.1");
+            }
+            else
+            {
+                GoToLevel1(1);
+            }
         }
         else if (x == 2)
         {
-            lastScene = "Inselkarte2";
-            GoToLevel2(1);
+            Debug.Log(geleseneStories);
+            if(geleseneStories == 3)
+            {
+                int zufall = Random.Range(1, 3);
+                lastScene = "Level2.1." + zufall;
+                SceneManager.LoadScene("Story2.1");
+            }
+            else
+            {
+                lastScene = "Inselkarte2";
+                GoToLevel2(1);
+            }
         }
         else if (x == 4)
         {

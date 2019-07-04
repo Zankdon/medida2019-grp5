@@ -43,6 +43,7 @@ public class LexikonNav : MonoBehaviour
 
     public void GoToAddition()
     {
+        seite = 1;
         SceneManager.LoadScene("AdditionsLexikon");
     }
 
@@ -82,6 +83,7 @@ public class LexikonNav : MonoBehaviour
 
     public void GoToSubtraktion()
     {
+        seite = 1;
         SceneManager.LoadScene("SubtraktionsLexikon");
     }
 
@@ -121,6 +123,7 @@ public class LexikonNav : MonoBehaviour
 
     public void GoToMultiplikation()
     {
+        seite = 1;
         SceneManager.LoadScene("MultiplikationsLexikon");
     }
 
@@ -135,7 +138,7 @@ public class LexikonNav : MonoBehaviour
         {
             GameObject.Find("Canvas").transform.Find("ZurueckBtn").gameObject.SetActive(true);
         }
-        if (seite == 7)
+        if (seite == 8)
         {
             GameObject.Find("WeiterBtn").SetActive(false);
         }
@@ -152,7 +155,7 @@ public class LexikonNav : MonoBehaviour
         {
             GameObject.Find("ZurueckBtn").SetActive(false);
         }
-        if (seite == 6)
+        if (seite == 7)
         {
             GameObject.Find("Canvas").transform.Find("WeiterBtn").gameObject.SetActive(true);
         }
@@ -160,6 +163,7 @@ public class LexikonNav : MonoBehaviour
 
     public void GoToDivision()
     {
+        seite = 1;
         SceneManager.LoadScene("DivisionsLexikon");
     }
 

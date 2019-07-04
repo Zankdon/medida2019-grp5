@@ -72,8 +72,14 @@ EditorBuildSettings:
     path: Assets/Scenes/StoryFolder/Story1.unity
     guid: 5c5fdf8d007b01540abb01b282e6184b
   - enabled: 1
+    path: Assets/Scenes/StoryFolder/Story1.1.unity
+    guid: d5b627ca57973674595e4aa87867f8b0
+  - enabled: 1
     path: Assets/Scenes/StoryFolder/Story2.unity
     guid: 59aa3cd899d27c242ba1f42df3bc5db4
+  - enabled: 1
+    path: Assets/Scenes/StoryFolder/Story2.1.unity
+    guid: 2bb8e12098d1e8141a9699a75ac15648
   - enabled: 1
     path: Assets/Scenes/StoryFolder/Story3.unity
     guid: be45c0b0db2c251439f7eb522cd1ac7a
