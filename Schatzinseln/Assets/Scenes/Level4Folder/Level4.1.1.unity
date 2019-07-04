@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 118361933}
   - component: {fileID: 118361934}
   m_Layer: 5
-  m_Name: 1
+  m_Name: right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1127,7 +1127,7 @@ GameObject:
   - component: {fileID: 438246787}
   - component: {fileID: 438246786}
   m_Layer: 5
-  m_Name: 1
+  m_Name: right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1240,7 +1240,7 @@ GameObject:
   - component: {fileID: 454610107}
   - component: {fileID: 454610104}
   m_Layer: 5
-  m_Name: 4
+  m_Name: right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2578,8 +2578,7 @@ MonoBehaviour:
   m_Text: 'Gleiche die Waage aus, indem du die Gewichte unten addierst und die 3
     passenden Gewichte auf den rechten Teil der Waage ziehst.
 
-    (Stelle dabei
-    das leichteste nach ganz links und das schwerste nach ganz rechts auf die Waage)'
+'
 --- !u!222 &977808042
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3176,7 +3175,7 @@ GameObject:
   - component: {fileID: 1253367742}
   - component: {fileID: 1253367743}
   m_Layer: 5
-  m_Name: 3
+  m_Name: right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3738,7 +3737,7 @@ GameObject:
   - component: {fileID: 1672475903}
   - component: {fileID: 1672475900}
   m_Layer: 5
-  m_Name: 3
+  m_Name: right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3851,7 +3850,7 @@ GameObject:
   - component: {fileID: 1676687463}
   - component: {fileID: 1676687464}
   m_Layer: 5
-  m_Name: 4
+  m_Name: right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
