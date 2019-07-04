@@ -38,6 +38,7 @@ public class Slot : MonoBehaviour, IDropHandler
                     if(ButtonManager.nextTeillevel == 3)
                     {
                         ButtonManager.nextTeillevel = 1;
+                        LevelHandler.level1IsCompleted();
                         ButtonManager.lastScene = "Insel1";
                         SceneManager.LoadScene("Story2");
                     }

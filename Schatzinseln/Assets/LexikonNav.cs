@@ -9,26 +9,29 @@ public class LexikonNav : MonoBehaviour
 
     public void nextPage()
     {
-        
-         GameObject.Find("Add" + seite).SetActive(false);
-         seite = seite + 1;
-         GameObject.Find("Canvas").transform.Find("Add" + seite).gameObject.SetActive(true);
-         if(seite == 2)
+        GameObject.Find("Add" + seite).SetActive(false);
+        GameObject.Find("Erk" + seite).SetActive(false);
+        seite = seite + 1;
+        GameObject.Find("Canvas").transform.Find("Add" + seite).gameObject.SetActive(true);
+        GameObject.Find("Canvas").transform.Find("Erk" + seite).gameObject.SetActive(true);
+        if (seite == 2)
          {
              GameObject.Find("Canvas").transform.Find("ZurueckBtn").gameObject.SetActive(true);
          }
-         if(seite == 12)
-         {
+        if(seite == 12)
+        {
              GameObject.Find("WeiterBtn").SetActive(false);
-         }
+        }
 
     }
     public void prevPage()
     {
         GameObject.Find("Add" + seite).SetActive(false);
+        GameObject.Find("Erk" + seite).SetActive(false);
         seite = seite - 1;
         GameObject.Find("Canvas").transform.Find("Add" + seite).gameObject.SetActive(true);
-        if(seite == 1)
+        GameObject.Find("Canvas").transform.Find("Erk" + seite).gameObject.SetActive(true);
+        if (seite == 1)
         {
             GameObject.Find("ZurueckBtn").SetActive(false);
         }
@@ -46,13 +49,15 @@ public class LexikonNav : MonoBehaviour
     public void nextPageAdd()
     {
         GameObject.Find("Div" + seite).SetActive(false);
+        GameObject.Find("Erk" + seite).SetActive(false);
         seite = seite + 1;
         GameObject.Find("Canvas").transform.Find("Div" + seite).gameObject.SetActive(true);
+        GameObject.Find("Canvas").transform.Find("Erk" + seite).gameObject.SetActive(true);
         if (seite == 2)
         {
             GameObject.Find("Canvas").transform.Find("ZurueckBtn").gameObject.SetActive(true);
         }
-        if (seite == 5)
+        if (seite == 4)
         {
             GameObject.Find("WeiterBtn").SetActive(false);
         }
@@ -61,13 +66,15 @@ public class LexikonNav : MonoBehaviour
     public void prevPageAdd()
     {
         GameObject.Find("Div" + seite).SetActive(false);
+        GameObject.Find("Erk" + seite).SetActive(false);
         seite = seite - 1;
         GameObject.Find("Canvas").transform.Find("Div" + seite).gameObject.SetActive(true);
+        GameObject.Find("Canvas").transform.Find("Erk" + seite).gameObject.SetActive(true);
         if (seite == 1)
         {
             GameObject.Find("ZurueckBtn").SetActive(false);
         }
-        if (seite == 4)
+        if (seite == 3)
         {
             GameObject.Find("Canvas").transform.Find("WeiterBtn").gameObject.SetActive(true);
         }
@@ -81,8 +88,10 @@ public class LexikonNav : MonoBehaviour
     public void nextPageSub()
     {
         GameObject.Find("Sub" + seite).SetActive(false);
+        GameObject.Find("Erk" + seite).SetActive(false);
         seite = seite + 1;
         GameObject.Find("Canvas").transform.Find("Sub" + seite).gameObject.SetActive(true);
+        GameObject.Find("Canvas").transform.Find("Erk" + seite).gameObject.SetActive(true);
         if (seite == 2)
         {
             GameObject.Find("Canvas").transform.Find("ZurueckBtn").gameObject.SetActive(true);
@@ -96,8 +105,10 @@ public class LexikonNav : MonoBehaviour
     public void prevPageSub()
     {
         GameObject.Find("Sub" + seite).SetActive(false);
+        GameObject.Find("Erk" + seite).SetActive(false);
         seite = seite - 1;
         GameObject.Find("Canvas").transform.Find("Sub" + seite).gameObject.SetActive(true);
+        GameObject.Find("Canvas").transform.Find("Erk" + seite).gameObject.SetActive(true);
         if (seite == 1)
         {
             GameObject.Find("ZurueckBtn").SetActive(false);
@@ -116,8 +127,10 @@ public class LexikonNav : MonoBehaviour
     public void nextPageMul()
     {
         GameObject.Find("Mul" + seite).SetActive(false);
+        GameObject.Find("Erk" + seite).SetActive(false);
         seite = seite + 1;
         GameObject.Find("Canvas").transform.Find("Mul" + seite).gameObject.SetActive(true);
+        GameObject.Find("Canvas").transform.Find("Erk" + seite).gameObject.SetActive(true);
         if (seite == 2)
         {
             GameObject.Find("Canvas").transform.Find("ZurueckBtn").gameObject.SetActive(true);
@@ -131,8 +144,10 @@ public class LexikonNav : MonoBehaviour
     public void prevPageMul()
     {
         GameObject.Find("Mul" + seite).SetActive(false);
+        GameObject.Find("Erk" + seite).SetActive(false);
         seite = seite - 1;
         GameObject.Find("Canvas").transform.Find("Mul" + seite).gameObject.SetActive(true);
+        GameObject.Find("Canvas").transform.Find("Erk" + seite).gameObject.SetActive(true);
         if (seite == 1)
         {
             GameObject.Find("ZurueckBtn").SetActive(false);
