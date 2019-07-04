@@ -7,9 +7,10 @@ public class ButtonManager : MonoBehaviour
 {
     public static string lastScene;
     public static int nextTeillevel = 1;
+    public static int nextTeillevelWaage = 1;
     public static int geleseneStories = 0;
     public static int richtig = 5;
-    public static int richtigWaage = 0;
+    public static int richtigWaage = 3;
     public static int inselKarte = 1;
 
 
@@ -105,6 +106,7 @@ public class ButtonManager : MonoBehaviour
 
     public void GoToInsel2()
     {
+        nextTeillevelWaage = 1;
         if (geleseneStories == 4)
         {
             lastScene = ("Insel2");
@@ -131,6 +133,7 @@ public class ButtonManager : MonoBehaviour
 
     public void GoToInsel4()
     {
+        
         if (geleseneStories == 7)
         {
             lastScene = ("Insel4");
@@ -144,11 +147,18 @@ public class ButtonManager : MonoBehaviour
 
     public void GoToLevelx(int x)
     {
+      
         if(nextTeillevel == 1)
         {
             Herzen.herzen = 3;
         }
+        if (nextTeillevelWaage == 1)
+        {
+            Herzen.herzen = 3;
+        }
         richtig = 5;
+        richtigWaage = 3;
+
         if (x == 1)
         {
             GoToLevel1(1);
@@ -195,13 +205,12 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene("Level3." + x);
     }
 
-    public void GoToLevel4(int x)
+    public static void GoToLevel4(int x)
     {
-       
-        Herzen.herzen = 3;
-        richtigWaage = 0;
+
+        richtigWaage = 3;
         int zufall = Random.Range(1, 3);
-        Debug.Log(zufall);
+        Debug.Log("Level4." + x + "." + zufall);
         SceneManager.LoadScene("Level4." + x + "." + zufall);
     }
 }

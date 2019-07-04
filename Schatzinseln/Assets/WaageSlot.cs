@@ -32,23 +32,22 @@ public class WaageSlot : MonoBehaviour, IDropHandler
                 DragHandler.draggedItem.transform.SetParent(transform);
                 Debug.Log("Richtig!");
                 AudioManager.instance.playRight();
-                ButtonManager.richtigWaage = ButtonManager.richtigWaage + 1;
-                if (ButtonManager.richtigWaage == 3)
+                ButtonManager.richtigWaage = ButtonManager.richtigWaage - 1;
+                if (ButtonManager.richtigWaage < 1)
                 {
-                    int zufall = Random.Range(1, 3);
-                    Debug.Log(zufall);
-                    SceneManager.LoadScene("Level4." + 2 + "." + zufall);
+                    if (ButtonManager.nextTeillevelWaage == 3)
+                    {
+                        ButtonManager.nextTeillevelWaage = 1;
+                        ButtonManager.lastScene = "Insel2";
+                        SceneManager.LoadScene("Story5");
+                    }
+                    else
+                    {
+                        ButtonManager.nextTeillevelWaage = ButtonManager.nextTeillevelWaage + 1;
+                        ButtonManager.GoToLevel4(ButtonManager.nextTeillevelWaage);
+                    }
                 }
-                if (ButtonManager.richtigWaage == 6)
-                {
-                    int zufall = Random.Range(1, 3);
-                    Debug.Log(zufall);
-                    SceneManager.LoadScene("Level4." + 3 + "." + zufall);
-                }
-                if (ButtonManager.richtigWaage == 9)
-                {
-                    SceneManager.LoadScene("Story6");
-                }
+
                 GameObject.Find("Canvas").transform.Find("Richtig").gameObject.SetActive(true);
                 GameObject.Find("Canvas").transform.Find("Falsch").gameObject.SetActive(false);
             }
