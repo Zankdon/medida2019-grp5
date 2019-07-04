@@ -858,16 +858,8 @@ MonoBehaviour:
   dialog:
     name: Jack
     saetze:
-    - "Das war schon eine ganz sch\xF6n harte Nuss, \naber du hast das sehr gut gemacht."
-    - 'Nun lass uns nachsehen was in der Pyramide drin ist.
-
-      Ich bin mir sicher
-      da drin ist ein Schatz versteckt. '
-    - "Oh wir sind wohl in einem Labyrinth gelangt. \nWir m\xFCssen unbedingt den
-      Ausgang finden."
-    - "Mein Instinkt sagt mir am Ende finden wir den Schatz. \nAlso dann lass uns
-      loslegen. "
-    - "Aber passe auf. Wenn wir einen falschen Raum betreten, werden Fallen ausgel\xF6st."
+    - "Super! Der Eingang \xF6ffnet sich."
+    - "Jetzt k\xF6nnen wir die Pyramide betreten. Gute Arbeit!"
 --- !u!114 &915615352
 MonoBehaviour:
   m_ObjectHideFlags: 0
