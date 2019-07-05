@@ -935,7 +935,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 610678629}
-        m_MethodName: GoToInsel1
+        m_MethodName: GoToInsel4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4692,7 +4692,7 @@ GameObject:
   - component: {fileID: 2036695294}
   - component: {fileID: 2036695293}
   m_Layer: 0
-  m_Name: PyramideVar2
+  m_Name: 'Uhrzeit '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4736,7 +4736,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: bb4bf52d6a617483ea0fc6fadcd3d2f6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c0bdfcac28bce4b83b4e403e7184fbff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
