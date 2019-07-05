@@ -161,6 +161,45 @@ public class LexikonNav : MonoBehaviour
         }
     }
 
+    public void GoToUmfang()
+    {
+        seite = 1;
+        SceneManager.LoadScene("UmfangsLexikon");
+    }
+
+    public void nextPageUmf()
+    {
+        GameObject.Find("Umf" + seite).SetActive(false);
+
+        seite = seite + 1;
+        GameObject.Find("Canvas").transform.Find("Umf" + seite).gameObject.SetActive(true);
+
+        if (seite == 2)
+        {
+            GameObject.Find("Canvas").transform.Find("ZurueckBtn").gameObject.SetActive(true);
+        }
+        if (seite == 7)
+        {
+            GameObject.Find("WeiterBtn").SetActive(false);
+        }
+    }
+
+    public void prevPageUmf()
+    {
+        GameObject.Find("Umf" + seite).SetActive(false);
+
+        seite = seite - 1;
+        GameObject.Find("Canvas").transform.Find("Umf" + seite).gameObject.SetActive(true);
+
+        if (seite == 1)
+        {
+            GameObject.Find("ZurueckBtn").SetActive(false);
+        }
+        if (seite == 6)
+        {
+            GameObject.Find("Canvas").transform.Find("WeiterBtn").gameObject.SetActive(true);
+        }
+    }
     public void GoToDivision()
     {
         seite = 1;
