@@ -337,7 +337,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 144682147}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -808,7 +808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.92549026, g: 0.73333335, b: 0.5411765, a: 1}
+  m_Color: {r: 0.5411765, g: 0.8235294, b: 0.9254902, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -999,7 +999,7 @@ GameObject:
   - component: {fileID: 356850520}
   - component: {fileID: 356850519}
   m_Layer: 5
-  m_Name: 154
+  m_Name: 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1157,7 +1157,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 9:30
+  m_Text: 17:30
 --- !u!222 &451996016
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1505,7 +1505,7 @@ GameObject:
   - component: {fileID: 548902181}
   - component: {fileID: 548902180}
   m_Layer: 5
-  m_Name: 482
+  m_Name: 17:30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2229,7 +2229,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 30
+  m_Text: 10
 --- !u!222 &704949457
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2252,7 +2252,7 @@ GameObject:
   - component: {fileID: 709581284}
   - component: {fileID: 709581283}
   m_Layer: 5
-  m_Name: 305
+  m_Name: 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3728,9 +3728,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: "Addiere Steine, die nebeneinander liegen und ziehe das Ergebnis in das
-    Feld dar\xFCber.\nSubtrahiere einen Stein von dem dar\xFCber liegenden und ziehe
-    das Ergebnis in das passende Feld.\nKlicke, um das Tutorial zu schlie\xDFen."
+  m_Text: "Lese die Uhrzeit, berechne das Ergebnis und ziehe das Ergebnis in das
+    passende Feld. Klicke, um das Tutorial zu schlie\u07E5n."
 --- !u!222 &1467711502
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4291,7 +4290,7 @@ GameObject:
   - component: {fileID: 1917904831}
   - component: {fileID: 1917904830}
   m_Layer: 5
-  m_Name: 196
+  m_Name: 17:30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4692,7 +4691,7 @@ GameObject:
   - component: {fileID: 2036695294}
   - component: {fileID: 2036695293}
   m_Layer: 0
-  m_Name: 'Uhrzeit '
+  m_Name: Uhrzeit var2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4736,7 +4735,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c0bdfcac28bce4b83b4e403e7184fbff, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d82128d2cff15498790485fdb39e6b22, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -193,6 +193,10 @@ public class ButtonManager : MonoBehaviour
         {
             GoToLevel4(1);
         }
+        else if (x == 5)
+        {
+            GoToLevel5(1);
+        }
         else
         {
             SceneManager.LoadScene("Level" + x);
@@ -233,5 +237,13 @@ public class ButtonManager : MonoBehaviour
         int zufall = Random.Range(1, 3);
         Debug.Log("Level4." + x + "." + zufall);
         SceneManager.LoadScene("Level4." + x + "." + zufall);
+    }
+    
+    public static void GoToLevel5(int x)
+    {
+        richtig = 2;
+        int zufall = Random.Range(1, 3);
+        Debug.Log("Level5." + x + "." + zufall);
+        SceneManager.LoadScene("Level5." + x + "." + zufall);
     }
 }

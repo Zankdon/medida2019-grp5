@@ -808,7 +808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.92549026, g: 0.73333335, b: 0.5411765, a: 1}
+  m_Color: {r: 0.5411765, g: 0.8235294, b: 0.9254902, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -935,7 +935,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 610678629}
-        m_MethodName: GoToInsel1
+        m_MethodName: GoToInsel4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1157,7 +1157,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 9:00
+  m_Text: 9:30
 --- !u!222 &451996016
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1294,7 +1294,7 @@ GameObject:
   - component: {fileID: 536351976}
   - component: {fileID: 536351975}
   m_Layer: 5
-  m_Name: 5
+  m_Name: 131
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1505,7 +1505,7 @@ GameObject:
   - component: {fileID: 548902181}
   - component: {fileID: 548902180}
   m_Layer: 5
-  m_Name: 9:00
+  m_Name: 482
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1719,7 +1719,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1462576582}
         m_MethodName: SetActive
@@ -2252,7 +2252,7 @@ GameObject:
   - component: {fileID: 709581284}
   - component: {fileID: 709581283}
   m_Layer: 5
-  m_Name: 5
+  m_Name: 305
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3728,9 +3728,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: "Addiere Steine, die nebeneinander liegen und ziehe das Ergebnis in das
-    Feld dar\xFCber.\nSubtrahiere einen Stein von dem dar\xFCber liegenden und ziehe
-    das Ergebnis in das passende Feld.\nKlicke, um das Tutorial zu schlie\xDFen."
+  m_Text: "Lese die Uhrzeit, berechne das Ergebnis und ziehe das Ergebnis in das
+    passende Feld. Klicke, um das Tutorial zu schlie\u07E5n."
 --- !u!222 &1467711502
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4032,7 +4031,7 @@ GameObject:
   - component: {fileID: 1549338540}
   - component: {fileID: 1549338539}
   m_Layer: 5
-  m_Name: 400
+  m_Name: 482
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4291,7 +4290,7 @@ GameObject:
   - component: {fileID: 1917904831}
   - component: {fileID: 1917904830}
   m_Layer: 5
-  m_Name: 9:00
+  m_Name: 196
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4692,7 +4691,7 @@ GameObject:
   - component: {fileID: 2036695294}
   - component: {fileID: 2036695293}
   m_Layer: 0
-  m_Name: Uhrzeit var1
+  m_Name: 'Uhrzeit '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4736,7 +4735,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 18cd1a74b003e4fbb8a0ece2b5db388d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c0bdfcac28bce4b83b4e403e7184fbff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
