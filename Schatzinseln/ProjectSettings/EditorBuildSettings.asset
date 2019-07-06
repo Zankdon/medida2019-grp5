@@ -144,10 +144,10 @@ EditorBuildSettings:
     path: Assets/Scenes/AdditionsLexikon.unity
     guid: 39d36447f4b29be48aab128f749dc76e
   - enabled: 1
-    path: Assets/Scenes/Level5Folder/level5.1.1.unity
-    guid: 25d5973f1565b458a9affdac5560af29
+    path: Assets/Scenes/Level5Folder/Level5.1.1.unity
+    guid: 31ec2deb2971941028188ef21a80d90d
   - enabled: 1
-    path: Assets/Scenes/Level5Folder/level5.1.2.unity
+    path: Assets/Scenes/Level5Folder/Level5.1.2.unity
     guid: 7e38aee66e95e41b0bf1617210e33464
   - enabled: 1
     path: Assets/Scenes/Level5Folder/Level5.2.1.unity
@@ -158,6 +158,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level5Folder/Level5.3.1.unity
     guid: 1d9f2045bd5484b04bba61f5a9dfbe7d
+  - enabled: 1
+    path: Assets/Scenes/Level5Folder/Level5.3.2.unity
+    guid: 1f43595a5f0754ac78325f1ecd624ffc
   - enabled: 1
     path: Assets/Scenes/UmfangsLexikon.unity
     guid: cc9dcfdf456954ea6bfd5086cd4588d3
@@ -176,4 +179,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level3Folder/Level3.5.unity
     guid: c92709afaa153438b8bcff563a757353
+  - enabled: 1
+    path: Assets/Scenes/Insel4Lexikon.unity
+    guid: 22b0d6cc38faf47fe9f91f29b198732e
   m_configObjects: {}

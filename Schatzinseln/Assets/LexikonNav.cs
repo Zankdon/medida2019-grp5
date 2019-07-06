@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -266,6 +266,46 @@ public class LexikonNav : MonoBehaviour
         GameObject.Find("gewicht" + seite).SetActive(false);
         seite = seite - 1;
         GameObject.Find("Canvas").transform.Find("gewicht" + seite).gameObject.SetActive(true);
+        if (seite == 1)
+        {
+            GameObject.Find("ZurueckBtn").SetActive(false);
+        }
+        if (seite == 1)
+        {
+            GameObject.Find("Canvas").transform.Find("WeiterBtn").gameObject.SetActive(true);
+        }
+    }
+    
+    public void GoToUhrzeit()
+    {
+        seite = 1;
+        SceneManager.LoadScene("Insel4Lexikon");
+    }
+    
+    public void nextPageUhr()
+    {
+        GameObject.Find("Uhr" + seite).SetActive(false);
+        
+        seite = seite + 1;
+        GameObject.Find("Canvas").transform.Find("Uhr" + seite).gameObject.SetActive(true);
+        
+        if (seite == 2)
+        {
+            GameObject.Find("Canvas").transform.Find("ZurueckBtn").gameObject.SetActive(true);
+        }
+        if (seite == 2)
+        {
+            GameObject.Find("WeiterBtn").SetActive(false);
+        }
+    }
+    
+    public void prevPageUhr()
+    {
+        GameObject.Find("Uhr" + seite).SetActive(false);
+        
+        seite = seite - 1;
+        GameObject.Find("Canvas").transform.Find("Uhr" + seite).gameObject.SetActive(true);
+        
         if (seite == 1)
         {
             GameObject.Find("ZurueckBtn").SetActive(false);
