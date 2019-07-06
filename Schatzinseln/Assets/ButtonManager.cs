@@ -107,6 +107,13 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene("Story3");
     }
 
+    public void goToStory5()
+    {
+        geleseneStories = geleseneStories - 1;
+        lastScene = "Inselkarte2";
+        SceneManager.LoadScene("Story5");
+    }
+
     public void GoToInsel2()
     {
         nextTeillevelWaage = 1;
@@ -204,6 +211,10 @@ public class ButtonManager : MonoBehaviour
         {
             GoToLevel5(1);
         }
+        else if (x == 6)
+        {
+            GoToLevel6(1);
+        }
         else
         {
             SceneManager.LoadScene("Level" + x);
@@ -253,4 +264,11 @@ public class ButtonManager : MonoBehaviour
         Debug.Log("Level5." + x + "." + zufall);
         SceneManager.LoadScene("Level5." + x + "." + zufall);
     }
+    public static void GoToLevel6(int x)
+    {
+        int zufall = Random.Range(1, 3);
+        Debug.Log(zufall);
+        SceneManager.LoadScene("Level6." + x + "." + zufall);
+    }
+
 }
