@@ -144,7 +144,7 @@ EditorBuildSettings:
     path: Assets/Scenes/AdditionsLexikon.unity
     guid: 39d36447f4b29be48aab128f749dc76e
   - enabled: 1
-    path: Assets/Scenes/Level5Folder/Level5.1.1.unity
+    path: Assets/Scenes/Level5Folder/level5.1.1.unity
     guid: 31ec2deb2971941028188ef21a80d90d
   - enabled: 1
     path: Assets/Scenes/Level5Folder/Level5.1.2.unity
@@ -182,4 +182,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Insel4Lexikon.unity
     guid: 22b0d6cc38faf47fe9f91f29b198732e
+  - enabled: 1
+    path: Assets/Scenes/Level6Folder/Level6.1.1.unity
+    guid: 67836d9eba3a9524fb1782c5c3513d83
+  - enabled: 1
+    path: Assets/Scenes/Level6Folder/Level6.1.2.unity
+    guid: 42a295d7d0974d449a304b08ee7348e0
+  - enabled: 1
+    path: Assets/Scenes/Level6Folder/Level6.2.1.unity
+    guid: a23230c9b1505a4499bed81915c7b62e
+  - enabled: 1
+    path: Assets/Scenes/Level6Folder/Level6.2.2.unity
+    guid: bbbc7562c73fb5645a7b6d775c9780b9
+  - enabled: 1
+    path: Assets/Scenes/Level6Folder/Level6.3.1.unity
+    guid: c622e5e90300d8d428e35388533eadd0
+  - enabled: 1
+    path: Assets/Scenes/Level6Folder/Level6.3.2.unity
+    guid: 7c8575293a18fb34f8214e2999bf6805
+  - enabled: 1
+    path: Assets/Scenes/StoryFolder/Story5.unity
+    guid: e7569ec36f7557a479c94cf2fecb8026
   m_configObjects: {}
