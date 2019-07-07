@@ -471,7 +471,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 11km
+  m_Text: 600m
 --- !u!222 &208241235
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -571,7 +571,7 @@ GameObject:
   - component: {fileID: 294063147}
   - component: {fileID: 294063146}
   m_Layer: 5
-  m_Name: Lange
+  m_Name: "L\xE4nge"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -629,7 +629,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 9km
+  m_Text: 500m
 --- !u!222 &294063147
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -708,7 +708,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 500mm
+  m_Text: 50m
 --- !u!222 &333057667
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -751,8 +751,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 393.8, y: -94}
-  m_SizeDelta: {x: 103.4, y: 72.7}
+  m_AnchoredPosition: {x: 255, y: -92}
+  m_SizeDelta: {x: 116, y: 74.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &348251432
 MonoBehaviour:
@@ -787,7 +787,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2000m
+  m_Text: 9000dm
 --- !u!222 &348251433
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -949,7 +949,7 @@ GameObject:
   - component: {fileID: 453458291}
   - component: {fileID: 453458290}
   m_Layer: 5
-  m_Name: "L\xE4nge2"
+  m_Name: "L\xE4nge3"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -967,12 +967,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 894039420}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -221.3, y: -58}
-  m_SizeDelta: {x: 103.4, y: 72.7}
+  m_AnchoredPosition: {x: -215.7, y: -54.65}
+  m_SizeDelta: {x: 114.6, y: 66}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &453458290
 MonoBehaviour:
@@ -1007,7 +1007,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 5000m
+  m_Text: 5500dm
 --- !u!222 &453458291
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1179,7 +1179,7 @@ GameObject:
   - component: {fileID: 841037154}
   - component: {fileID: 841037153}
   m_Layer: 5
-  m_Name: "L\xE4nge3"
+  m_Name: "L\xE4nge2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1197,7 +1197,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 894039420}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1237,7 +1237,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 10km
+  m_Text: 450m
 --- !u!222 &841037154
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1347,8 +1347,8 @@ RectTransform:
   - {fileID: 1585019196}
   - {fileID: 294063145}
   - {fileID: 208241233}
-  - {fileID: 453458289}
   - {fileID: 841037152}
+  - {fileID: 453458289}
   - {fileID: 961275197}
   - {fileID: 1647253466}
   - {fileID: 348251431}
@@ -1399,8 +1399,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 110, y: -0.000014305}
-  m_SizeDelta: {x: 103.4, y: 72.7}
+  m_AnchoredPosition: {x: 116.3, y: -0.000014305}
+  m_SizeDelta: {x: 116, y: 72.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &961275198
 MonoBehaviour:
@@ -1435,7 +1435,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 7000m
+  m_Text: 8000dm
 --- !u!222 &961275199
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2261,8 +2261,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 393.79996, y: 46.35001}
-  m_SizeDelta: {x: 103.4, y: 72.7}
+  m_AnchoredPosition: {x: 387.5, y: 46.35}
+  m_SizeDelta: {x: 116, y: 72.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1647253467
 MonoBehaviour:
@@ -2297,7 +2297,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 4000m
+  m_Text: 1000dm
 --- !u!222 &1647253468
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2704,7 +2704,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 80cm
+  m_Text: 80m
 --- !u!222 &1888338186
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2783,7 +2783,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2dm
+  m_Text: 60m
 --- !u!222 &1917587573
 CanvasRenderer:
   m_ObjectHideFlags: 0

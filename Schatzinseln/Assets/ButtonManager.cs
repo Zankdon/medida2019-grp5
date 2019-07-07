@@ -177,7 +177,7 @@ public class ButtonManager : MonoBehaviour
         if (x == 1)
         {
 
-            if(geleseneStories == 2)
+            if (geleseneStories == 2)
             {
                 int zufall = Random.Range(1, 3);
                 lastScene = "Level1.1." + zufall;
@@ -191,7 +191,7 @@ public class ButtonManager : MonoBehaviour
         else if (x == 2)
         {
             Debug.Log(geleseneStories);
-            if(geleseneStories == 3)
+            if (geleseneStories == 3)
             {
                 int zufall = Random.Range(1, 3);
                 lastScene = "Level2.1." + zufall;
@@ -205,7 +205,13 @@ public class ButtonManager : MonoBehaviour
         }
         else if (x == 4)
         {
-            GoToLevel4(1);
+            Debug.Log(geleseneStories);
+            if (geleseneStories == 5)
+            {
+                int zufall = Random.Range(1, 3);
+                lastScene = "Level4.1." + zufall;
+                SceneManager.LoadScene("Story6");
+            }
         }
         else if (x == 5)
         {
@@ -264,7 +270,7 @@ public class ButtonManager : MonoBehaviour
         Debug.Log("Level5." + x + "." + zufall);
         SceneManager.LoadScene("Level5." + x + "." + zufall);
     }
-    public static void GoToLevel6(int x)
+    public void GoToLevel6(int x)
     {
         int zufall = Random.Range(1, 3);
         Debug.Log(zufall);
