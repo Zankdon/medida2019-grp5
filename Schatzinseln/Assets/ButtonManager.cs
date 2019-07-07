@@ -111,7 +111,7 @@ public class ButtonManager : MonoBehaviour
     {
         geleseneStories = geleseneStories - 1;
         lastScene = "Inselkarte2";
-        SceneManager.LoadScene("Story5");
+        SceneManager.LoadScene("StoryNachBruecken");
     }
 
     public void GoToInsel2()

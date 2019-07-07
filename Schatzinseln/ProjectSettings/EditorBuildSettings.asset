@@ -203,4 +203,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StoryFolder/Story5.unity
     guid: e7569ec36f7557a479c94cf2fecb8026
+  - enabled: 1
+    path: Assets/Scenes/StoryFolder/StoryNachBruecken.unity
+    guid: 316df6deab25dba4aa79b96720a6eb08
   m_configObjects: {}
