@@ -75,12 +75,14 @@ public class ButtonManager : MonoBehaviour
         else if (x == 3)
 
         {
-            SceneManager.LoadScene("Insel3Lexikon");
+            LexikonNav.seite = 1;
+            SceneManager.LoadScene("UmfangsLexikon");
         }
 
         else if (x == 4)
 
         {
+            LexikonNav.seite = 1;
             SceneManager.LoadScene("Insel4Lexikon");
         }
     }
@@ -318,5 +320,11 @@ public class ButtonManager : MonoBehaviour
     public void goBackAfterGameOver()
     {
         SceneManager.LoadScene("Inselkarte" + inselKarte);
+    }
+
+    public void goToStory123()
+    {
+        lastScene = "Inselkarte4";
+        SceneManager.LoadScene("StoryNachGeometrieLevel");
     }
 }

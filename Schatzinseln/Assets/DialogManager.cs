@@ -44,7 +44,8 @@ public class DialogManager : MonoBehaviour
 
     void EndDialog()
     {
-        if (ButtonManager.lastScene.Equals("StoryEnde"))
+        Debug.Log(SceneManager.GetActiveScene().name);
+        if (SceneManager.GetActiveScene().name.Equals("StoryEnde"))
         {
             SceneManager.LoadScene("ENDE");
         }
