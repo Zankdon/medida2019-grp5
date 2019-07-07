@@ -44,9 +44,16 @@ public class DialogManager : MonoBehaviour
 
     void EndDialog()
     {
-        ButtonManager.geleseneStories = ButtonManager.geleseneStories + 1;
-        SceneManager.LoadScene(ButtonManager.lastScene);
-        Debug.Log("Ende des Gesprächs");
+        if (ButtonManager.lastScene.Equals("StoryEnde"))
+        {
+            SceneManager.LoadScene("ENDE");
+        }
+        else
+        {
+            ButtonManager.geleseneStories = ButtonManager.geleseneStories + 1;
+            SceneManager.LoadScene(ButtonManager.lastScene);
+            Debug.Log("Ende des Gesprächs");
+        }
     }
 }
 

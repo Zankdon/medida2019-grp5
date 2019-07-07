@@ -38,8 +38,8 @@ public class ZeitSlot : MonoBehaviour, IDropHandler
                     if (ButtonManager.nextTeillevelZeit == 3)
                     {
                         ButtonManager.nextTeillevelZeit = 1;
-                        ButtonManager.lastScene = "Insel4";
-                        SceneManager.LoadScene("Story6");
+                        ButtonManager.lastScene = "StoryEnde";
+                        SceneManager.LoadScene("Story9");
                     }
                     else
                     {
