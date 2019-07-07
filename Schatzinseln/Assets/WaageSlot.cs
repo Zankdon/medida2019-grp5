@@ -38,8 +38,8 @@ public class WaageSlot : MonoBehaviour, IDropHandler
                     if (ButtonManager.nextTeillevelWaage == 3)
                     {
                         ButtonManager.nextTeillevelWaage = 1;
-                        ButtonManager.lastScene = "Insel2";
-                        SceneManager.LoadScene("Story6");
+                        ButtonManager.lastScene = "InselKarte3";
+                        SceneManager.LoadScene("StoryNachWaage");
                     }
                     else
                     {

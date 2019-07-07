@@ -109,8 +109,8 @@ public class ButtonManager : MonoBehaviour
 
     public void goToStory5()
     {
-        geleseneStories = geleseneStories - 1;
-        lastScene = "Inselkarte2";
+        lastScene = "Insel2";
+        LevelHandler2.level2IsCompleted();
         SceneManager.LoadScene("StoryNachBruecken");
     }
 
@@ -130,10 +130,10 @@ public class ButtonManager : MonoBehaviour
 
     public void GoToInsel3()
     {
-        if (geleseneStories == 5)
+        if (geleseneStories == 9)
         {
             lastScene = ("Insel3");
-            SceneManager.LoadScene("Story5");
+            SceneManager.LoadScene("Story6");
         }
         else
         {
@@ -157,7 +157,7 @@ public class ButtonManager : MonoBehaviour
 
     public void GoToLevelx(int x)
     {
-      
+        Debug.Log("GeleseneStories:" + geleseneStories);
         if(nextTeillevel == 1)
         {
             Herzen.herzen = 3;
@@ -206,11 +206,16 @@ public class ButtonManager : MonoBehaviour
         else if (x == 4)
         {
             Debug.Log(geleseneStories);
-            if (geleseneStories == 5)
+            if (geleseneStories == 7)
             {
+                richtigWaage = 3;
                 int zufall = Random.Range(1, 3);
                 lastScene = "Level4.1." + zufall;
-                SceneManager.LoadScene("Story6");
+                SceneManager.LoadScene("Story5");
+            }
+            else
+            {
+                GoToLevel4(1);
             }
         }
         else if (x == 5)
@@ -219,7 +224,16 @@ public class ButtonManager : MonoBehaviour
         }
         else if (x == 6)
         {
-            GoToLevel6(1);
+            if (geleseneStories == 5)
+            {
+                int zufall = Random.Range(1, 3);
+                lastScene = "Level6.1." + zufall;
+                SceneManager.LoadScene("StoryVorBruecken");
+            }
+            else
+            {
+                GoToLevel6(1);
+            }
         }
         else
         {
