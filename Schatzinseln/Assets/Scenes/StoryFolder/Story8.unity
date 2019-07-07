@@ -917,18 +917,11 @@ MonoBehaviour:
   dialog:
     name: 
     saetze:
-    - "NPC: Einen sch\xF6nen guten Tag sie m\xFCssen neu auf dieser Insel sein. \nEventuell
-      k\xF6nnen sie mir ja helfen? "
-    - "Jack: Hallo, ja wir sind eben auf dieser Insel angekommen. \nNat\xFCrlich
-      helfen wir Ihnen gerne."
-    - "NPC: Super ich muss n\xE4mlich bald fort mit dem Bus. \nAber der Busfahrplan
-      dieser Insel ist so verwirrend. "
-    - "Jack: Na dann zeigen Sie mal her, wir schauen was wir tun k\xF6nnen. \nDer
-      ist ja wirklich ganz sch\xF6n verwirrend. "
-    - "Jack: Schau mal kannst du was damit anfangen? \nWir m\xFCssen dem Mann doch
-      irgendwie helfen k\xF6nnen."
-    - "NPC: Ich hab Ihnen hier aufgeschrieben, was ich bereits herausgefunden habe.
-      \nIch danke Ihnen f\xFCr Ihre Hilfe. "
+    - "Wenn wir schon die M\xF6glichkeit haben, k\xF6nnen wir auch den Bus nehmen.
+      Ich wei\xDF, wohin wir m\xFCssen."
+    - 'Dieser Plan ist allerdings etwas verwirrend. Hilf mir mal.
+
+'
 --- !u!114 &1358398796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1392,7 +1385,7 @@ SpriteRenderer:
   m_Size: {x: 30.151878, y: 10.879999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1760783704

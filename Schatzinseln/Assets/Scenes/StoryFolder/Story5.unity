@@ -917,16 +917,12 @@ MonoBehaviour:
   dialog:
     name: Jack
     saetze:
-    - 'Super wir haben den schnellsten Weg gefunden.
-
-      Lass uns schnell in den
-      Tempel reingehen. '
-    - "Das sieht ganz sch\xF6n gef\xE4hrlich aus.\nAber schau mal hier die Waagen
-      sehen sehr verd\xE4chtig aus. "
-    - "Da sind auch ein paar Gewichte. \nDu kennst dich doch aus mit Gewichten oder? "
-    - "Ich denke, wir sollen die Waagen alle ausgleichen. \nAber wir sollten besser
-      keinen Fehler machen. \nWer wei\xDF was sonst passiert. "
-    - "Aber du schaffst das schon, \nalso gleiche einfach alle Waagen aus. "
+    - "Hm, was ist das f\xFCr ein Ort?\r\nAber schau mal, diese Waagen sehen verd\xE4chtig
+      aus. \r\n"
+    - "Hier sind auch ein paar Gewichte. \r\nDu kennst dich doch sicher mit Gewichten
+      aus, oder? \r\n"
+    - "Es scheint, als m\xFCsste  die Waagen ausgeglichen werden.\r\nWir sollten
+      aber besser keinen Fehler machen, wer wei\xDF was sonst passiert. \r\n"
 --- !u!114 &1358398796
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -917,8 +917,13 @@ MonoBehaviour:
   dialog:
     name: Jack
     saetze:
-    - "Schaut so aus als ob wir alle Kartenteile zusammen haben. \nIch bin mir sicher
-      auf der neuen Insel muss der Schatz sein. "
+    - "Diese Insel scheint von Touristen \xFCberlaufen zu sein. \r\nSoll hier wirklich
+      ein geheimer Schatz liegen?\r\n"
+    - 'Komisch...
+
+'
+    - "Oh, warte! Ich glaube, ich kenne diesen Ort!\r\nAllm\xE4hlich d\xE4mmert es
+      mir, was hier passiert ist...\r\n"
 --- !u!114 &1358398796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1382,7 +1387,7 @@ SpriteRenderer:
   m_Size: {x: 30.151878, y: 10.879999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1760783704

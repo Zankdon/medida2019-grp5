@@ -917,16 +917,8 @@ MonoBehaviour:
   dialog:
     name: Jack
     saetze:
-    - "Juhu wir haben eine weitere Karte gefunden. \nLass uns gleich nachsehen was
-      sie verbirgt. "
-    - "Diese Insel hat einige merkw\xFCrdige Skulpturen. \nDiese Skulpturen m\xFCssen
-      irgendein Geheimnis bergen. "
-    - "Schau mal neben den Skulpturen sind einige Zahlen eingraviert. \nIch glaube
-      wir sollen den Umfang dieser Skulpturen ausrechnen. \n"
-    - "Oh hier ist sogar eine Tafel auf der wir unsere Ergebnisse schreiben k\xF6nnen.\nVielleicht
-      passiert ja etwas gutes wenn wir alle Ergebnisse zusammen haben. "
-    - "Versuch am besten mal dein Gl\xFCck. \nTrag dann einfach deine Ergebnisse
-      hier auf der Tafel ein. "
+    - "Auf dieser Insel gibt es einige merkw\xFCrdige Skulpturen.\r\nIch wette,sie
+      bergen ein Geheimnis.\r\n"
 --- !u!114 &1358398796
 MonoBehaviour:
   m_ObjectHideFlags: 0

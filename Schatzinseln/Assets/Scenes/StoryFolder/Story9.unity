@@ -917,15 +917,8 @@ MonoBehaviour:
   dialog:
     name: 
     saetze:
-    - "NPC: Oh super nun wei\xDF ich endlich wann mein Bus kommt. \nVielen Dank,
-      kann ich Ihnen auch irgendwie helfen? "
-    - "Jack: Ist doch kein Problem. \nJa haben Sie vielleicht von dem verborgenen
-      Schatz dieser Insel geh\xF6rt? "
-    - "NPC: Aber nat\xFCrlich dies ist ein altes Geheimnis unserer Insel. \nZeigen
-      Sie mal ihre Karte her."
-    - "NPC: Ich hab Ihnen den Ort des Schatzes auf der Karte markiert. \nSie m\xFCssen
-      viel herumgekommen sein. \nIch w\xFCnsche Ihnen viel Gl\xFCck."
-    - "Jack: Vielen Dank f\xFCr Ihre Hilfe. "
+    - "Alles klar, war ja doch gar nicht so schwer. \r\n"
+    - "Warten wir einfach auf den n\xE4chsten Bus.\r\n"
 --- !u!114 &1358398796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1389,7 +1382,7 @@ SpriteRenderer:
   m_Size: {x: 30.151878, y: 10.879999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1760783704
