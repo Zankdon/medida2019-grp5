@@ -919,11 +919,10 @@ MonoBehaviour:
     saetze:
     - "Diese Insel ist ganz anders aufgebaut, als die vorherige. Hier gibt es viele
       kleine Inseln und Holzbr\xFCcken dazwischen.\r\n"
-    - "Und da dr\xFCben ist auch ein Vulkan. Wir sollten also wachsam bleiben.\r\n"
-    - "Wir sollten keine Zeit verlieren. \nDer Vulkan kann jederzeit wieder ausbrechen. "
-    - "Siehst du dort in der Ferne den Tempel. \r\nDa muss unser n\xE4chster Hinweis
+    - "Siehst du dort in der Ferne den Tempel? \r\nDa muss unser n\xE4chster Hinweis
       auf den Schatz sein. \r\n"
-    - "Wir sollten keine Zeit verlieren. \r\nAuf geht's!\r\n"
+    - "Und da dr\xFCben ist auch ein Vulkan. Wir sollten also wachsam bleiben."
+    - "Verlieren wir  besser keine Zeit! \r\nAuf geht's!\r\n"
 --- !u!114 &1358398796
 MonoBehaviour:
   m_ObjectHideFlags: 0
