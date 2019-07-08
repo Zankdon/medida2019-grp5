@@ -1600,8 +1600,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: "W\xE4hle den k\xFCrzesten Weg indem du auf einen der Buttons (1,2 oder
-    3) dr\xFCckst und somit einen der 3 vorgegebenen Pfade ausw\xE4hlst."
+  m_Text: "W\xE4hle den k\xFCrzesten Weg, indem du auf einen der Buttons (1, 2 oder
+    3) dr\xFCckst."
 --- !u!222 &1250590826
 CanvasRenderer:
   m_ObjectHideFlags: 0
